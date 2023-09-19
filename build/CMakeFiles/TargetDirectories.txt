@@ -1,0 +1,10 @@
+/home/sid/ros2_ws/build/CMakeFiles/uninstall.dir
+/home/sid/ros2_ws/build/CMakeFiles/cpp_pubsub_uninstall.dir
+/home/sid/ros2_ws/build/CMakeFiles/simple_pub.dir
+/home/sid/ros2_ws/build/CMakeFiles/test.dir
+/home/sid/ros2_ws/build/CMakeFiles/edit_cache.dir
+/home/sid/ros2_ws/build/CMakeFiles/rebuild_cache.dir
+/home/sid/ros2_ws/build/CMakeFiles/list_install_components.dir
+/home/sid/ros2_ws/build/CMakeFiles/install.dir
+/home/sid/ros2_ws/build/CMakeFiles/install/local.dir
+/home/sid/ros2_ws/build/CMakeFiles/install/strip.dir

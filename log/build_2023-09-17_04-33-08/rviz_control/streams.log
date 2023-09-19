@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/home/sid/ros2_ws/build/rviz_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/rviz_control -- -j8 -l8
+[0.050s] Invoked command in '/home/sid/ros2_ws/build/rviz_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/rviz_control -- -j8 -l8
+[0.113s] Invoking command in '/home/sid/ros2_ws/build/rviz_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/rviz_control
+[0.137s] -- Install configuration: ""
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/ament_index/resource_index/package_run_dependencies/rviz_control
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/ament_index/resource_index/parent_prefix_path/rviz_control
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/environment/ament_prefix_path.sh
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/environment/ament_prefix_path.dsv
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/environment/path.sh
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/environment/path.dsv
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/local_setup.bash
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/local_setup.sh
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/local_setup.zsh
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/local_setup.dsv
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/package.dsv
+[0.137s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/ament_index/resource_index/packages/rviz_control
+[0.138s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/cmake/rviz_controlConfig.cmake
+[0.138s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/cmake/rviz_controlConfig-version.cmake
+[0.138s] -- Up-to-date: /home/sid/ros2_ws/install/rviz_control/share/rviz_control/package.xml
+[0.142s] Invoked command in '/home/sid/ros2_ws/build/rviz_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/rviz_control

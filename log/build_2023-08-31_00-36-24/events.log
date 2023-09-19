@@ -1,0 +1,24 @@
+[0.000000] (-) TimerEvent: {}
+[0.000769] (-) JobUnselected: {'identifier': 'arm_checker'}
+[0.000814] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000826] (-) JobUnselected: {'identifier': 'cpp_pub'}
+[0.000840] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000853] (-) JobUnselected: {'identifier': 'my_first_pkg'}
+[0.000868] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000879] (-) JobUnselected: {'identifier': 'parameter_handler1'}
+[0.000893] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000902] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000911] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.000920] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_1'}
+[0.000928] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_12'}
+[0.000937] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_2'}
+[0.000946] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_3'}
+[0.000954] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_4'}
+[0.000963] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_8'}
+[0.000971] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_9'}
+[0.000980] (-) JobUnselected: {'identifier': 'static_broadcast'}
+[0.000988] (-) JobUnselected: {'identifier': 'tut_interfaces'}
+[0.001001] (ros2_control_demos) JobQueued: {'identifier': 'ros2_control_demos', 'dependencies': OrderedDict([('ros2_control_demo_description', '/home/sid/ros2_ws/install/ros2_control_demo_description'), ('ros2_control_demo_example_1', '/home/sid/ros2_ws/install/ros2_control_demo_example_1'), ('ros2_control_demo_example_2', '/home/sid/ros2_ws/install/ros2_control_demo_example_2'), ('ros2_control_demo_example_3', '/home/sid/ros2_ws/install/ros2_control_demo_example_3'), ('ros2_control_demo_example_4', '/home/sid/ros2_ws/install/ros2_control_demo_example_4'), ('ros2_control_demo_example_8', '/home/sid/ros2_ws/install/ros2_control_demo_example_8'), ('ros2_control_demo_example_9', '/home/sid/ros2_ws/install/ros2_control_demo_example_9')])}
+[0.001022] (ros2_control_demos) JobStarted: {'identifier': 'ros2_control_demos'}
+[0.011980] (ros2_control_demos) JobEnded: {'identifier': 'ros2_control_demos', 'rc': 1}
+[0.022499] (-) EventReactorShutdown: {}

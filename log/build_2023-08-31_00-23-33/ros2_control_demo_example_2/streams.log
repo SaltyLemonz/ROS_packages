@@ -1,0 +1,71 @@
+[0.017s] Invoking command in '/home/sid/ros2_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/example_2 -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/ros2_control_demo_example_2
+[0.176s] -- The CXX compiler identification is GNU 11.4.0
+[0.187s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.275s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.545s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.646s] -- Found hardware_interface: 3.17.0 (/opt/ros/iron/share/hardware_interface/cmake)
+[0.699s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.713s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.735s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.464s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.468s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.561s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.589s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.627s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.825s] -- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[1.879s] -- Configuring done (1.8s)
+[1.891s] -- Generating done (0.0s)
+[1.893s] -- Build files have been written to: /home/sid/ros2_ws/build/ros2_control_demo_example_2
+[1.904s] Invoked command in '/home/sid/ros2_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/example_2 -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/ros2_control_demo_example_2
+[1.905s] Invoking command in '/home/sid/ros2_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/ros2_control_demo_example_2 -- -j8 -l8
+[1.944s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_2.dir/hardware/diffbot_system.cpp.o[0m
+[5.170s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_2.so[0m
+[5.362s] [100%] Built target ros2_control_demo_example_2
+[5.369s] Invoked command in '/home/sid/ros2_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/ros2_control_demo_example_2 -- -j8 -l8
+[5.431s] Invoking command in '/home/sid/ros2_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/ros2_control_demo_example_2
+[5.453s] -- Install configuration: ""
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control_demo_example_2.xml
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/diffbot_system.hpp
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/visibility_control.h
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/view_robot.launch.py
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control/diffbot.ros2_control.xacro
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf/diffbot.urdf.xacro
+[5.453s] -- Up-to-date: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/diffbot.launch.py
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config
+[5.453s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config/diffbot_controllers.yaml
+[5.454s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so
+[5.454s] -- Set runtime path of "/home/sid/ros2_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so" to ""
+[5.454s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.sh
+[5.454s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.dsv
+[5.454s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_2
+[5.454s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_2
+[5.454s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.sh
+[5.454s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.dsv
+[5.454s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.sh
+[5.454s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.dsv
+[5.454s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.bash
+[5.454s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.sh
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.zsh
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.dsv
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/packages/ros2_control_demo_example_2
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_2
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export.cmake
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export-noconfig.cmake
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_targets-extras.cmake
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config.cmake
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config-version.cmake
+[5.455s] -- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.xml
+[5.460s] Invoked command in '/home/sid/ros2_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/ros2_control_demo_example_2

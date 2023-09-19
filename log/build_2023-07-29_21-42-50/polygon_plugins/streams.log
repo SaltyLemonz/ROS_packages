@@ -1,0 +1,68 @@
+[0.006s] Invoking command in '/home/sid/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/cpp_parameters:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/polygon_plugins
+[0.058s] -- The C compiler identification is GNU 11.3.0
+[0.095s] -- The CXX compiler identification is GNU 11.3.0
+[0.101s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.207s] -- Detecting CXX compiler ABI info - done
+[0.214s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.215s] -- Detecting CXX compile features
+[0.215s] -- Detecting CXX compile features - done
+[0.217s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.464s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.537s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.546s] -- Found polygon_base: 0.0.0 (/home/sid/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[0.548s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[0.585s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.639s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.639s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sid/ros2_ws/src/polygon_plugins/include>
+[0.639s] -- Configured cppcheck exclude dirs and/or files: 
+[0.640s] -- Added test 'lint_cmake' to check CMake code style
+[0.641s] -- Added test 'uncrustify' to check C / C++ code style
+[0.641s] -- Configured uncrustify additional arguments: 
+[0.641s] -- Added test 'xmllint' to check XML markup files
+[0.644s] -- Configuring done (0.6s)
+[0.647s] -- Generating done (0.0s)
+[0.648s] -- Build files have been written to: /home/sid/ros2_ws/build/polygon_plugins
+[0.656s] Invoked command in '/home/sid/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/cpp_parameters:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/polygon_plugins
+[0.657s] Invoking command in '/home/sid/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/cpp_parameters:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/polygon_plugins -- -j8 -l8
+[0.687s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[1.164s] [100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[1.211s] [100%] Built target polygon_plugins
+[1.217s] Invoked command in '/home/sid/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/cpp_parameters:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/polygon_plugins -- -j8 -l8
+[1.249s] Invoking command in '/home/sid/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/cpp_parameters:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/polygon_plugins
+[1.267s] -- Install configuration: ""
+[1.268s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[1.268s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/include
+[1.268s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/include/polygon_plugins
+[1.268s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[1.268s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[1.268s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+[1.269s] -- Set runtime path of "/home/sid/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.sh
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/library_path.dsv
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+[1.269s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[1.270s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[1.270s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+[1.270s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-noconfig.cmake
+[1.270s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.270s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[1.270s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[1.270s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[1.270s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[1.270s] -- Installing: /home/sid/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml
+[1.276s] Invoked command in '/home/sid/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/polygon_base:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/cpp_parameters:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/polygon_plugins

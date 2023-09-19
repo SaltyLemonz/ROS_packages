@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/sid/ros2_ws/install/tut_interfaces/lib/python3.10/site-packages",
+        "/home/sid/ros2_ws/install/my_first_pkg/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/sid/ros2_ws/install/tut_interfaces/lib/python3.10/site-packages",
+        "/home/sid/ros2_ws/install/my_first_pkg/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ]
+}

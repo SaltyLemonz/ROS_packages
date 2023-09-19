@@ -1,0 +1,15 @@
+/home/sid/ros2_ws/install/4wd-robot/share/ament_index/resource_index/package_run_dependencies/4wd-robot
+/home/sid/ros2_ws/install/4wd-robot/share/ament_index/resource_index/parent_prefix_path/4wd-robot
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/environment/ament_prefix_path.sh
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/environment/ament_prefix_path.dsv
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/environment/path.sh
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/environment/path.dsv
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/local_setup.bash
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/local_setup.sh
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/local_setup.zsh
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/local_setup.dsv
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/package.dsv
+/home/sid/ros2_ws/install/4wd-robot/share/ament_index/resource_index/packages/4wd-robot
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/cmake/4wd-robotConfig.cmake
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/cmake/4wd-robotConfig-version.cmake
+/home/sid/ros2_ws/install/4wd-robot/share/4wd-robot/package.xml

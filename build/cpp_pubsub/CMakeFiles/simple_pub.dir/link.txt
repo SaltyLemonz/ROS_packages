@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/simple_pub.dir/src/publisher_member_function.cpp.o -o simple_pub  -lrclcpp -lstd_msgs 

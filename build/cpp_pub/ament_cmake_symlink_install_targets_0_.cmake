@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sid/ros2_ws/build/cpp_pub/simple_pub" "/home/sid/ros2_ws/build/cpp_pub/simple_sub" "TARGETS" "simple_pub" "simple_sub" "DESTINATION" "lib/cpp_pub")

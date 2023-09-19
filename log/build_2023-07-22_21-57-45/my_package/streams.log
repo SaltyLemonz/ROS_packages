@@ -1,0 +1,24 @@
+[0.254s] Invoking command in '/home/sid/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/my_package -- -j8 -l8
+[0.326s] [35m[1mConsolidate compiler generated dependencies of target simple[0m
+[0.338s] [100%] Built target simple
+[0.349s] Invoked command in '/home/sid/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/my_package -- -j8 -l8
+[0.406s] Invoking command in '/home/sid/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/my_package
+[0.425s] -- Install configuration: ""
+[0.425s] -- Execute custom install script
+[0.426s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/lib/my_package/simple
+[0.426s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[0.426s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[0.427s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[0.427s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[0.427s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[0.427s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[0.428s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[0.428s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[0.428s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[0.428s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[0.428s] -- Symlinking: /home/sid/ros2_ws/install/my_package/share/my_package/package.dsv
+[0.434s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[0.434s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[0.435s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[0.435s] -- Up-to-date symlink: /home/sid/ros2_ws/install/my_package/share/my_package/package.xml
+[0.440s] Invoked command in '/home/sid/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/my_package

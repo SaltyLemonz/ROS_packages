@@ -1,0 +1,4 @@
+Invoking command in '/home/sid/ros2_ws/build/model_4wd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/model_4wd -- -j8 -l8
+Invoked command in '/home/sid/ros2_ws/build/model_4wd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/model_4wd -- -j8 -l8
+Invoking command in '/home/sid/ros2_ws/build/model_4wd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/model_4wd
+Invoked command in '/home/sid/ros2_ws/build/model_4wd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/model_4wd

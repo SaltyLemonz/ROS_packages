@@ -1,0 +1,87 @@
+[0.010s] Invoking command in '/home/sid/ros2_ws/build/arm_checker': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/fib_checker -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/arm_checker
+[0.099s] -- The C compiler identification is GNU 11.3.0
+[0.161s] -- The CXX compiler identification is GNU 11.3.0
+[0.169s] -- Detecting C compiler ABI info
+[0.208s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.220s] -- Detecting CXX compiler ABI info
+[0.267s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.275s] -- Detecting CXX compile features - done
+[0.278s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.559s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.630s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.670s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.682s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.861s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.863s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.949s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.974s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.015s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.170s] -- Found tut_interfaces: 0.0.0 (/home/sid/ros2_ws/install/tut_interfaces/share/tut_interfaces/cmake)
+[1.258s] -- Configuring done (1.2s)
+[1.268s] -- Generating done (0.0s)
+[1.270s] -- Build files have been written to: /home/sid/ros2_ws/build/arm_checker
+[1.281s] Invoked command in '/home/sid/ros2_ws/build/arm_checker' returned '0': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/fib_checker -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/arm_checker
+[1.282s] Invoking command in '/home/sid/ros2_ws/build/arm_checker': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/arm_checker -- -j8 -l8
+[1.318s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/arm_client.cpp.o[0m
+[1.318s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/arm_server.cpp.o[0m
+[3.642s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.642s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[3.642s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.642s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.642s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.642s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.642s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.642s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.643s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.643s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.643s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[3.643s]                  from [01m[K/home/sid/ros2_ws/src/fib_checker/src/arm_server.cpp:2[m[K:
+[3.643s] [01m[K/home/sid/ros2_ws/src/fib_checker/src/arm_server.cpp:[m[K In function ‘[01m[Kbool armstrong(std::shared_ptr<tut_interfaces::srv::CheckFib_Request_<std::allocator<void> > >, std::shared_ptr<tut_interfaces::srv::CheckFib_Response_<std::allocator<void> > >)[m[K’:
+[3.643s] [01m[K/home/sid/ros2_ws/src/fib_checker/src/arm_server.cpp:15:46:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ktut_interfaces::srv::CheckFib_Request_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.643s]    15 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"),[01;35m[K"Requesting to check if %d is Armstrong number."[m[K,[32m[Krequest->num[m[K);
+[3.643s]       |                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~[m[K
+[3.643s]       |                                                                                                        [32m[K|[m[K
+[3.643s]       |                                                                                                        [32m[Ktut_interfaces::srv::CheckFib_Request_<std::allocator<void> >::_num_type {aka long int}[m[K
+[3.643s] [01m[K/home/sid/ros2_ws/src/fib_checker/src/arm_server.cpp:15:71:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.643s]    15 | _INFO(rclcpp::get_logger("rclcpp"),"Requesting to check if [01;36m[K%d[m[K is Armstrong number.",request->num);
+[3.643s]       |                                                            [01;36m[K~^[m[K
+[3.643s]       |                                                             [01;36m[K|[m[K
+[3.643s]       |                                                             [01;36m[Kint[m[K
+[3.643s]       |                                                            [32m[K%ld[m[K
+[3.644s] [01m[K/home/sid/ros2_ws/src/fib_checker/src/arm_server.cpp:17:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.644s]    17 | [01;35m[K}[m[K
+[3.644s]       | [01;35m[K^[m[K
+[4.952s] [ 75%] [32m[1mLinking CXX executable server[0m
+[5.065s] [ 75%] Built target server
+[5.101s] [100%] [32m[1mLinking CXX executable client[0m
+[5.208s] [100%] Built target client
+[5.215s] Invoked command in '/home/sid/ros2_ws/build/arm_checker' returned '0': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/arm_checker -- -j8 -l8
+[5.248s] Invoking command in '/home/sid/ros2_ws/build/arm_checker': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/arm_checker
+[5.265s] -- Install configuration: ""
+[5.265s] -- Installing: /home/sid/ros2_ws/install/arm_checker/lib/arm_checker/server
+[5.266s] -- Set runtime path of "/home/sid/ros2_ws/install/arm_checker/lib/arm_checker/server" to ""
+[5.266s] -- Installing: /home/sid/ros2_ws/install/arm_checker/lib/arm_checker/client
+[5.266s] -- Set runtime path of "/home/sid/ros2_ws/install/arm_checker/lib/arm_checker/client" to ""
+[5.266s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/ament_index/resource_index/package_run_dependencies/arm_checker
+[5.267s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/ament_index/resource_index/parent_prefix_path/arm_checker
+[5.267s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/ament_prefix_path.sh
+[5.267s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/ament_prefix_path.dsv
+[5.267s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/path.sh
+[5.267s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/path.dsv
+[5.267s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.bash
+[5.268s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.sh
+[5.268s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.zsh
+[5.268s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.dsv
+[5.268s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/package.dsv
+[5.269s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/ament_index/resource_index/packages/arm_checker
+[5.269s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/cmake/arm_checkerConfig.cmake
+[5.269s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/cmake/arm_checkerConfig-version.cmake
+[5.269s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/package.xml
+[5.275s] Invoked command in '/home/sid/ros2_ws/build/arm_checker' returned '0': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/arm_checker

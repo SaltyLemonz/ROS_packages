@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/sid/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/cpp_parameters -- -j8 -l8
+[0.106s] [ 50%] [32mBuilding CXX object CMakeFiles/param_test.dir/src/cpp_param_node.cpp.o[0m
+[3.008s] [100%] [32m[1mLinking CXX executable param_test[0m
+[3.143s] [100%] Built target param_test
+[3.150s] Invoked command in '/home/sid/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/cpp_parameters -- -j8 -l8
+[3.213s] Invoking command in '/home/sid/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/cpp_parameters
+[3.231s] -- Install configuration: ""
+[3.232s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/lib/cpp_parameters/param_test
+[3.233s] -- Set runtime path of "/home/sid/ros2_ws/install/cpp_parameters/lib/cpp_parameters/param_test" to ""
+[3.233s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[3.233s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[3.233s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[3.233s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[3.233s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[3.233s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[3.233s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[3.233s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[3.233s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[3.233s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[3.233s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+[3.233s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[3.234s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[3.234s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[3.234s] -- Up-to-date: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.xml
+[3.240s] Invoked command in '/home/sid/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/cpp_parameters

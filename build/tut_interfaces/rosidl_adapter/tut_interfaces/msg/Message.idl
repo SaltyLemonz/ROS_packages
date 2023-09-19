@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tut_interfaces/msg/Message.msg
+// generated code does not contain a copyright notice
+
+
+module tut_interfaces {
+  module msg {
+    struct Message {
+      boolean flag;
+    };
+  };
+};

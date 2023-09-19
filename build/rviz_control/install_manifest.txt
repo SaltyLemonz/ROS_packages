@@ -1,0 +1,16 @@
+/home/sid/ros2_ws/install/rviz_control/lib/rviz_control/move
+/home/sid/ros2_ws/install/rviz_control/share/ament_index/resource_index/package_run_dependencies/rviz_control
+/home/sid/ros2_ws/install/rviz_control/share/ament_index/resource_index/parent_prefix_path/rviz_control
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/environment/ament_prefix_path.sh
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/environment/ament_prefix_path.dsv
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/environment/path.sh
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/environment/path.dsv
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/local_setup.bash
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/local_setup.sh
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/local_setup.zsh
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/local_setup.dsv
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/package.dsv
+/home/sid/ros2_ws/install/rviz_control/share/ament_index/resource_index/packages/rviz_control
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/cmake/rviz_controlConfig.cmake
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/cmake/rviz_controlConfig-version.cmake
+/home/sid/ros2_ws/install/rviz_control/share/rviz_control/package.xml

@@ -1,0 +1,57 @@
+[0.032s] Invoking command in '/home/sid/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/cpp_parameters
+[0.354s] -- The C compiler identification is GNU 11.3.0
+[0.354s] -- The CXX compiler identification is GNU 11.3.0
+[0.354s] -- Detecting C compiler ABI info
+[0.355s] -- Detecting C compiler ABI info - done
+[0.355s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.355s] -- Detecting C compile features
+[0.355s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.371s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.380s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.385s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.733s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.833s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.888s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.903s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.921s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.086s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.090s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.180s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.207s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.244s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.390s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.463s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.463s] -- Configured cppcheck include dirs: 
+[1.463s] -- Configured cppcheck exclude dirs and/or files: 
+[1.464s] -- Added test 'lint_cmake' to check CMake code style
+[1.465s] -- Added test 'uncrustify' to check C / C++ code style
+[1.465s] -- Configured uncrustify additional arguments: 
+[1.466s] -- Added test 'xmllint' to check XML markup files
+[1.467s] -- Configuring done (1.4s)
+[1.470s] -- Generating done (0.0s)
+[1.471s] -- Build files have been written to: /home/sid/ros2_ws/build/cpp_parameters
+[1.483s] Invoked command in '/home/sid/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/cpp_parameters
+[1.483s] Invoking command in '/home/sid/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/cpp_parameters -- -j8 -l8
+[1.515s] Invoked command in '/home/sid/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/cpp_parameters -- -j8 -l8
+[1.544s] Invoking command in '/home/sid/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/cpp_parameters
+[1.562s] -- Install configuration: ""
+[1.562s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[1.562s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[1.562s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[1.562s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[1.562s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[1.562s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[1.562s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[1.562s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[1.562s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[1.562s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[1.562s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+[1.563s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[1.563s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[1.563s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[1.563s] -- Installing: /home/sid/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.xml
+[1.568s] Invoked command in '/home/sid/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/cpp_parameters

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tut_interfaces/srv/CheckFib.srv
+// generated code does not contain a copyright notice
+
+
+module tut_interfaces {
+  module srv {
+    struct CheckFib_Request {
+      int64 num;
+    };
+    struct CheckFib_Response {
+      boolean data;
+    };
+  };
+};

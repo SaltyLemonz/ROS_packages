@@ -1,0 +1,7 @@
+{
+  "package_name": "tut_interfaces",
+  "non_idl_tuples": [
+    "/home/sid/ros2_ws/src/tut_interfaces:msg/Message.msg",
+    "/home/sid/ros2_ws/src/tut_interfaces:srv/CheckFib.srv"
+  ]
+}

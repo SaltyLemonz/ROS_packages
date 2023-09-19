@@ -1,0 +1,4 @@
+source;share/fib_test/local_setup.bash
+source;share/fib_test/local_setup.dsv
+source;share/fib_test/local_setup.sh
+source;share/fib_test/local_setup.zsh

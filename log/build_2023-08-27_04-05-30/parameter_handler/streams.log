@@ -1,0 +1,25 @@
+[0.012s] Invoking command in '/home/sid/ros2_ws/build/parameter_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/parameter_handler -- -j8 -l8
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_handler.dir/src/cpp_parameter_handler.cpp.o[0m
+[6.314s] [100%] [32m[1mLinking CXX executable parameter_handler[0m
+[6.615s] [100%] Built target parameter_handler
+[6.622s] Invoked command in '/home/sid/ros2_ws/build/parameter_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/parameter_handler -- -j8 -l8
+[6.687s] Invoking command in '/home/sid/ros2_ws/build/parameter_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/parameter_handler
+[6.709s] -- Install configuration: ""
+[6.709s] -- Execute custom install script
+[6.709s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/lib/parameter_handler/parameter_handler
+[6.710s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/ament_index/resource_index/package_run_dependencies/parameter_handler
+[6.710s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/ament_index/resource_index/parent_prefix_path/parameter_handler
+[6.710s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/environment/ament_prefix_path.sh
+[6.710s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/environment/ament_prefix_path.dsv
+[6.710s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/environment/path.sh
+[6.710s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/environment/path.dsv
+[6.710s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/local_setup.bash
+[6.711s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/local_setup.sh
+[6.711s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/local_setup.zsh
+[6.711s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/local_setup.dsv
+[6.711s] -- Symlinking: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/package.dsv
+[6.713s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/ament_index/resource_index/packages/parameter_handler
+[6.713s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/cmake/parameter_handlerConfig.cmake
+[6.713s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/cmake/parameter_handlerConfig-version.cmake
+[6.714s] -- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/package.xml
+[6.719s] Invoked command in '/home/sid/ros2_ws/build/parameter_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/parameter_handler

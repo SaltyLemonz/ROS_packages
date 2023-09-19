@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000094] (-) JobUnselected: {'identifier': 'cpp_pub'}
+[0.000114] (-) JobUnselected: {'identifier': 'my_first_pkg'}
+[0.000124] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000135] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000147] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.009704] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.010079] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.010748] (cpp_srvcli) Command: {'cmd': ['/home/sid/.local/bin/cmake', '--build', '/home/sid/ros2_ws/build/cpp_srvcli', '--', '-j8', '-l8'], 'cwd': '/home/sid/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sid'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sid/ros2_ws/install/tut_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/sid'), ('OLDPWD', '/home/sid'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2405'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/sid/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'sid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'sid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/gcc-arm/bin:/opt/ros/iron/bin:/home/sid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/srana:@/tmp/.ICE-unix/2282,unix/srana:/tmp/.ICE-unix/2282'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/754f870f_7980_4f0d_9650_4abee77c79c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2338'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/my_first_pkg:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sid/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sid/ros2_ws/install/tut_interfaces/lib/python3.10/site-packages:/home/sid/ros2_ws/install/my_first_pkg/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron')]), 'shell': False}
+[0.052213] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[0.052427] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] Built target server\n'}
+[0.099403] (-) TimerEvent: {}
+[0.199669] (-) TimerEvent: {}
+[0.299992] (-) TimerEvent: {}
+[0.400317] (-) TimerEvent: {}
+[0.500694] (-) TimerEvent: {}
+[0.601014] (-) TimerEvent: {}
+[0.701342] (-) TimerEvent: {}
+[0.801712] (-) TimerEvent: {}
+[0.910163] (-) TimerEvent: {}
+[1.010735] (-) TimerEvent: {}
+[1.134966] (-) TimerEvent: {}
+[1.235940] (-) TimerEvent: {}
+[1.336243] (-) TimerEvent: {}
+[1.436597] (-) TimerEvent: {}
+[1.536948] (-) TimerEvent: {}
+[1.637273] (-) TimerEvent: {}
+[1.737603] (-) TimerEvent: {}
+[1.837919] (-) TimerEvent: {}
+[1.873029] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.873321] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.873366] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.873403] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.873438] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.873473] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.873508] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.873543] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.873577] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[1.873611] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2\x1b[m\x1b[K:\n'}
+[1.873644] (cpp_srvcli) StderrLine: {'line': b'/opt/ros/iron/include/rclcpp/rclcpp/client.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Client<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.873681] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:141:1:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.873722] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:23:84:\x1b[m\x1b[K   required from here\n'}
+[1.873757] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:378:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.873794] (cpp_srvcli) StderrLine: {'line': b'  378 |   using \x1b[01;31m\x1b[KRequest\x1b[m\x1b[K = typename ServiceT::Request;\n'}
+[1.873827] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.873861] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:379:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.873896] (cpp_srvcli) StderrLine: {'line': b'  379 |   using \x1b[01;31m\x1b[KResponse\x1b[m\x1b[K = typename ServiceT::Response;\n'}
+[1.873930] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.873964] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:381:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.873999] (cpp_srvcli) StderrLine: {'line': b'  381 |   using \x1b[01;31m\x1b[KSharedRequest\x1b[m\x1b[K = typename ServiceT::Request::SharedPtr;\n'}
+[1.874032] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.874066] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:382:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.874100] (cpp_srvcli) StderrLine: {'line': b'  382 |   using \x1b[01;31m\x1b[KSharedResponse\x1b[m\x1b[K = typename ServiceT::Response::SharedPtr;\n'}
+[1.874134] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.874168] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:384:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.874202] (cpp_srvcli) StderrLine: {'line': b'  384 |   using \x1b[01;31m\x1b[KPromise\x1b[m\x1b[K = std::promise<SharedResponse>;\n'}
+[1.874236] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.874270] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:385:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.874326] (cpp_srvcli) StderrLine: {'line': b'  385 |   using \x1b[01;31m\x1b[KPromiseWithRequest\x1b[m\x1b[K = std::promise<std::pair<SharedRequest, SharedResponse>>;\n'}
+[1.874363] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.874398] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:387:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.874438] (cpp_srvcli) StderrLine: {'line': b'  387 |   using \x1b[01;31m\x1b[KSharedPromise\x1b[m\x1b[K = std::shared_ptr<Promise>;\n'}
+[1.874476] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.874510] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:388:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.874545] (cpp_srvcli) StderrLine: {'line': b'  388 |   using \x1b[01;31m\x1b[KSharedPromiseWithRequest\x1b[m\x1b[K = std::shared_ptr<PromiseWithRequest>;\n'}
+[1.874579] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.874613] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:390:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.874647] (cpp_srvcli) StderrLine: {'line': b'  390 |   using \x1b[01;31m\x1b[KFuture\x1b[m\x1b[K = std::future<SharedResponse>;\n'}
+[1.874682] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.874715] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:391:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.874750] (cpp_srvcli) StderrLine: {'line': b'  391 |   using \x1b[01;31m\x1b[KSharedFuture\x1b[m\x1b[K = std::shared_future<SharedResponse>;\n'}
+[1.874785] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.874819] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:392:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.874853] (cpp_srvcli) StderrLine: {'line': b'  392 |   using \x1b[01;31m\x1b[KSharedFutureWithRequest\x1b[m\x1b[K = std::shared_future<std::pair<SharedRequest, SharedResponse>>;\n'}
+[1.874887] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.874921] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:394:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.874955] (cpp_srvcli) StderrLine: {'line': b'  394 |   using \x1b[01;31m\x1b[KCallbackType\x1b[m\x1b[K = std::function<void (SharedFuture)>;\n'}
+[1.874989] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.875022] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:395:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.875059] (cpp_srvcli) StderrLine: {'line': b'  395 |   using \x1b[01;31m\x1b[KCallbackWithRequestType\x1b[m\x1b[K = std::function<void (SharedFutureWithRequest)>;\n'}
+[1.875092] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.875125] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:515:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.875160] (cpp_srvcli) StderrLine: {'line': b'  515 |   \x1b[01;31m\x1b[Ktake_response\x1b[m\x1b[K(typename ServiceT::Response & response_out, rmw_request_id_t & request_header_out)\n'}
+[1.875195] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.875228] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:645:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.875262] (cpp_srvcli) StderrLine: {'line': b'  645 |   \x1b[01;31m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[1.875295] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.875329] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:676:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.875366] (cpp_srvcli) StderrLine: {'line': b'  676 |   \x1b[01;31m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[1.875400] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.875432] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:813:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.875467] (cpp_srvcli) StderrLine: {'line': b'  813 |   using \x1b[01;31m\x1b[KCallbackTypeValueVariant\x1b[m\x1b[K = std::tuple<CallbackType, SharedFuture, Promise>;\n'}
+[1.875502] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.875536] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:814:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KRequest\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.875572] (cpp_srvcli) StderrLine: {'line': b'  814 |   using \x1b[01;31m\x1b[KCallbackWithRequestTypeValueVariant\x1b[m\x1b[K = std::tuple<\n'}
+[1.875607] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.875641] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:817:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.875677] (cpp_srvcli) StderrLine: {'line': b'  817 |   using \x1b[01;31m\x1b[KCallbackInfoVariant\x1b[m\x1b[K = std::variant<\n'}
+[1.875712] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.875748] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:838:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.875782] (cpp_srvcli) StderrLine: {'line': b'  838 |   \x1b[01;31m\x1b[Kget_and_erase_pending_request\x1b[m\x1b[K(int64_t request_number)\n'}
+[1.875816] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.875849] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:860:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.875884] (cpp_srvcli) StderrLine: {'line': b'  860 |   \x1b[01;31m\x1b[Kpending_requests_\x1b[m\x1b[K;\n'}
+[1.875918] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.877766] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.877879] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:34:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthe address of \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 will never be NULL [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress\x07-Waddress\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.877921] (cpp_srvcli) StderrLine: {'line': b'   34 |         if (!\x1b[01;35m\x1b[Krclcpp::ok\x1b[m\x1b[K) {\n'}
+[1.877957] (cpp_srvcli) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.878468] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:42:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp::Client<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Client<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kasync_send_request\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.878539] (cpp_srvcli) StderrLine: {'line': b'   42 |     auto result = client->\x1b[01;31m\x1b[Kasync_send_request\x1b[m\x1b[K(request);\n'}
+[1.878578] (cpp_srvcli) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.938125] (-) TimerEvent: {}
+[2.038517] (-) TimerEvent: {}
+[2.138952] (-) TimerEvent: {}
+[2.239264] (-) TimerEvent: {}
+[2.339598] (-) TimerEvent: {}
+[2.439924] (-) TimerEvent: {}
+[2.530802] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.530943] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.530982] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.531015] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.531046] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.531077] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.531120] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.531155] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.531186] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[2.531217] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2\x1b[m\x1b[K:\n'}
+[2.531249] (cpp_srvcli) StderrLine: {'line': b'/opt/ros/iron/include/rclcpp/rclcpp/client.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<void> rclcpp::Client<ServiceT>::create_response() [with ServiceT = example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.531282] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:525:3:\x1b[m\x1b[K   required from here\n'}
+[2.531313] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:527:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.531349] (cpp_srvcli) StderrLine: {'line': b'  527 |     return std::shared_ptr<void>(\x1b[01;31m\x1b[Knew typename ServiceT::Response()\x1b[m\x1b[K);\n'}
+[2.531384] (cpp_srvcli) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.531479] (cpp_srvcli) StderrLine: {'line': b'/opt/ros/iron/include/rclcpp/rclcpp/client.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Client<ServiceT>::handle_response(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<void>) [with ServiceT = example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.531520] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:548:3:\x1b[m\x1b[K   required from here\n'}
+[2.531554] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:553:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.531588] (cpp_srvcli) StderrLine: {'line': b'  553 |     \x1b[01;31m\x1b[Koptional_pending_request\x1b[m\x1b[K = this->get_and_erase_pending_request(request_header->sequence_number);\n'}
+[2.531622] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.531656] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:553:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.531690] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:558:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[KResponse\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.531723] (cpp_srvcli) StderrLine: {'line': b'  558 |     auto typed_response = \x1b[01;31m\x1b[Kstd::static_pointer_cast<typename ServiceT::Response>\x1b[m\x1b[K(\n'}
+[2.531757] (cpp_srvcli) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.540069] (-) TimerEvent: {}
+[2.601623] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1\n'}
+[2.601826] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2\n'}
+[2.601948] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.607456] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[2.640169] (-) TimerEvent: {}
+[2.655100] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[2.665467] (-) EventReactorShutdown: {}

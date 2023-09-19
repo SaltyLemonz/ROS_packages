@@ -1,0 +1,55 @@
+[0.033s] Invoking command in '/home/sid/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/cpp_parameters -- -j8 -l8
+[0.316s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.316s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.316s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.316s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.469s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.472s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.615s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.770s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.830s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.830s] -- Configured cppcheck include dirs: 
+[0.830s] -- Configured cppcheck exclude dirs and/or files: 
+[0.831s] -- Added test 'lint_cmake' to check CMake code style
+[0.831s] -- Added test 'uncrustify' to check C / C++ code style
+[0.831s] -- Configured uncrustify additional arguments: 
+[0.832s] -- Added test 'xmllint' to check XML markup files
+[0.833s] -- Configuring done (0.8s)
+[0.846s] -- Generating done (0.0s)
+[0.847s] -- Build files have been written to: /home/sid/ros2_ws/build/cpp_parameters
+[0.860s] [ 50%] [32mBuilding CXX object CMakeFiles/param_test.dir/src/cpp_param_node.cpp.o[0m
+[2.756s] [01m[K/home/sid/ros2_ws/src/cpp_parameters/src/cpp_param_node.cpp:[m[K In constructor ‘[01m[KParam::Param()[m[K’:
+[2.756s] [01m[K/home/sid/ros2_ws/src/cpp_parameters/src/cpp_param_node.cpp:15:65:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid Param::timer_callback()[m[K’
+[2.756s]    15 |     timer = this->create_wall_timer(500ms, std::bind([01;31m[KParam::timer_callback[m[K, this));
+[2.756s]       |                                                      [01;31m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.756s] 
+[2.756s] [01m[K/home/sid/ros2_ws/src/cpp_parameters/src/cpp_param_node.cpp:18:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.756s]    18 |     void [01;36m[Ktimer_callback[m[K() {
+[2.756s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.757s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[2.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.757s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.758s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.758s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.758s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.758s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.758s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.758s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.758s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[2.758s]                  from [01m[K/home/sid/ros2_ws/src/cpp_parameters/src/cpp_param_node.cpp:1[m[K:
+[2.758s] [01m[K/home/sid/ros2_ws/src/cpp_parameters/src/cpp_param_node.cpp:[m[K In member function ‘[01m[Kvoid Param::timer_callback()[m[K’:
+[2.758s] [01m[K/home/sid/ros2_ws/src/cpp_parameters/src/cpp_param_node.cpp:22:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.758s]    22 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"Hello %s!"[m[K, get_param);
+[2.758s]       |                                         [01;35m[K^~~~~~~~~~~[m[K
+[2.758s] [01m[K/home/sid/ros2_ws/src/cpp_parameters/src/cpp_param_node.cpp:22:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.758s]    22 |         RCLCPP_INFO(this->get_logger(), "Hello [01;36m[K%s[m[K!", get_param);
+[2.758s]       |                                                [01;36m[K~^[m[K
+[2.758s]       |                                                 [01;36m[K|[m[K
+[2.758s]       |                                                 [01;36m[Kchar*[m[K
+[3.397s] gmake[2]: *** [CMakeFiles/param_test.dir/build.make:76: CMakeFiles/param_test.dir/src/cpp_param_node.cpp.o] Error 1
+[3.397s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/param_test.dir/all] Error 2
+[3.397s] gmake: *** [Makefile:146: all] Error 2
+[3.408s] Invoked command in '/home/sid/ros2_ws/build/cpp_parameters' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/cpp_parameters -- -j8 -l8

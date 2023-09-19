@@ -1,0 +1,20 @@
+[0.025s] Invoking command in '/home/sid/ros2_ws/build/cpp_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/cpp_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/cpp_pub
+[0.266s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.266s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.266s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.266s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.266s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.330s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.331s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.435s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.581s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.609s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.609s]   ament_target_dependencies() the first argument must be a valid target name
+[0.609s] Call Stack (most recent call first):
+[0.609s]   CMakeLists.txt:14 (ament_target_dependencies)
+[0.609s] 
+[0.609s] [0m
+[0.609s] -- Configuring incomplete, errors occurred!
+[0.619s] Invoked command in '/home/sid/ros2_ws/build/cpp_pub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/cpp_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/cpp_pub

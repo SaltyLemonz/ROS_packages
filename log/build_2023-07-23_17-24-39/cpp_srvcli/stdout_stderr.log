@@ -1,0 +1,109 @@
+[ 50%] Built target server
+[ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/sid/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2[m[K:
+/opt/ros/iron/include/rclcpp/rclcpp/client.hpp: In instantiation of ‘[01m[Kclass rclcpp::Client<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >[m[K’:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:141:1:[m[K   required by substitution of ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >][m[K’
+[01m[K/home/sid/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:23:84:[m[K   required from here
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:378:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  378 |   using [01;31m[KRequest[m[K = typename ServiceT::Request;
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:379:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  379 |   using [01;31m[KResponse[m[K = typename ServiceT::Response;
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:381:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  381 |   using [01;31m[KSharedRequest[m[K = typename ServiceT::Request::SharedPtr;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:382:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  382 |   using [01;31m[KSharedResponse[m[K = typename ServiceT::Response::SharedPtr;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:384:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  384 |   using [01;31m[KPromise[m[K = std::promise<SharedResponse>;
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:385:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  385 |   using [01;31m[KPromiseWithRequest[m[K = std::promise<std::pair<SharedRequest, SharedResponse>>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:387:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  387 |   using [01;31m[KSharedPromise[m[K = std::shared_ptr<Promise>;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:388:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  388 |   using [01;31m[KSharedPromiseWithRequest[m[K = std::shared_ptr<PromiseWithRequest>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:390:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  390 |   using [01;31m[KFuture[m[K = std::future<SharedResponse>;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:391:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  391 |   using [01;31m[KSharedFuture[m[K = std::shared_future<SharedResponse>;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:392:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  392 |   using [01;31m[KSharedFutureWithRequest[m[K = std::shared_future<std::pair<SharedRequest, SharedResponse>>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:394:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  394 |   using [01;31m[KCallbackType[m[K = std::function<void (SharedFuture)>;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:395:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  395 |   using [01;31m[KCallbackWithRequestType[m[K = std::function<void (SharedFutureWithRequest)>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:515:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  515 |   [01;31m[Ktake_response[m[K(typename ServiceT::Response & response_out, rmw_request_id_t & request_header_out)
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:645:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  645 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:676:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  676 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:813:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  813 |   using [01;31m[KCallbackTypeValueVariant[m[K = std::tuple<CallbackType, SharedFuture, Promise>;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:814:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  814 |   using [01;31m[KCallbackWithRequestTypeValueVariant[m[K = std::tuple<
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:817:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  817 |   using [01;31m[KCallbackInfoVariant[m[K = std::variant<
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:838:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  838 |   [01;31m[Kget_and_erase_pending_request[m[K(int64_t request_number)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:860:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  860 |   [01;31m[Kpending_requests_[m[K;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sid/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sid/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:69:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Client<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kasync_send_request[m[K’
+   69 |   auto result = client->[01;31m[Kasync_send_request[m[K(request);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/sid/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2[m[K:
+/opt/ros/iron/include/rclcpp/rclcpp/client.hpp: In instantiation of ‘[01m[Kstd::shared_ptr<void> rclcpp::Client<ServiceT>::create_response() [with ServiceT = example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >][m[K’:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:525:3:[m[K   required from here
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:527:34:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  527 |     return std::shared_ptr<void>([01;31m[Knew typename ServiceT::Response()[m[K);
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+/opt/ros/iron/include/rclcpp/rclcpp/client.hpp: In instantiation of ‘[01m[Kvoid rclcpp::Client<ServiceT>::handle_response(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<void>) [with ServiceT = example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >][m[K’:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:548:3:[m[K   required from here
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:553:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  553 |     [01;31m[Koptional_pending_request[m[K = this->get_and_erase_pending_request(request_header->sequence_number);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:553:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:558:32:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’
+  558 |     auto typed_response = [01;31m[Kstd::static_pointer_cast<typename ServiceT::Response>[m[K(
+      |                           [01;31m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

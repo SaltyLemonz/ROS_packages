@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${default}",
+                "/opt/ros/iron/include/rclcpp",
+                "/opt/ros/iron/include/rcpputils",
+                "/opt/ros/iron/include/example_interfaces",
+                "/opt/ros/iron/include/rosidl_runtime_cpp"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

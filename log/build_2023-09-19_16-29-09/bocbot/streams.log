@@ -1,0 +1,27 @@
+[0.012s] Invoking command in '/home/sid/ros2_ws/build/bocbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/bocbot -- -j8 -l8
+[0.049s] [100%] Built target media_files
+[0.059s] Invoked command in '/home/sid/ros2_ws/build/bocbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/bocbot -- -j8 -l8
+[0.129s] Invoking command in '/home/sid/ros2_ws/build/bocbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/bocbot
+[0.151s] -- Install configuration: ""
+[0.151s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/worlds
+[0.151s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/worlds/bocbot_office.world
+[0.151s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/urdf
+[0.151s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/urdf/bocbot.gazebo
+[0.151s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/urdf/bocbot.urdf
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/urdf/bocbot.urdf.xacro
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/ament_index/resource_index/package_run_dependencies/bocbot
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/ament_index/resource_index/parent_prefix_path/bocbot
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/environment/ament_prefix_path.sh
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/environment/ament_prefix_path.dsv
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/environment/path.sh
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/environment/path.dsv
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/local_setup.bash
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/local_setup.sh
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/local_setup.zsh
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/local_setup.dsv
+[0.152s] -- Up-to-date: /home/sid/ros2_ws/install/bocbot/share/bocbot/package.dsv
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/ament_index/resource_index/packages/bocbot
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/cmake/bocbotConfig.cmake
+[0.152s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/cmake/bocbotConfig-version.cmake
+[0.153s] -- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/package.xml
+[0.158s] Invoked command in '/home/sid/ros2_ws/build/bocbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/bocbot

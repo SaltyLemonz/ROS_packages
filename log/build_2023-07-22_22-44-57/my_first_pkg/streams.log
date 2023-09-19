@@ -1,0 +1,16 @@
+[0.592s] Invoking command in '/home/sid/ros2_ws/build/my_first_pkg': PYTHONPATH=/home/sid/ros2_ws/build/my_first_pkg/prefix_override:/home/sid/ros2_ws/install/my_first_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sid/ros2_ws/build/my_first_pkg/build --no-deps install_data
+[0.830s] running develop
+[0.999s] running egg_info
+[0.999s] writing my_first_pkg.egg-info/PKG-INFO
+[0.999s] writing dependency_links to my_first_pkg.egg-info/dependency_links.txt
+[0.999s] writing entry points to my_first_pkg.egg-info/entry_points.txt
+[0.999s] writing requirements to my_first_pkg.egg-info/requires.txt
+[0.999s] writing top-level names to my_first_pkg.egg-info/top_level.txt
+[1.001s] reading manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+[1.002s] writing manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+[1.003s] running build_ext
+[1.003s] Creating /home/sid/ros2_ws/install/my_first_pkg/lib/python3.10/site-packages/my-first-pkg.egg-link (link to .)
+[1.003s] Installing test_node script to /home/sid/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+[1.003s] 
+[1.003s] Installed /home/sid/ros2_ws/build/my_first_pkg
+[1.004s] running install_data

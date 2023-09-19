@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/sid/ros2_ws/build/arm_checker': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/arm_checker -- -j8 -l8
+[0.064s] [100%] Built target server
+[0.064s] [100%] Built target client
+[0.071s] Invoked command in '/home/sid/ros2_ws/build/arm_checker' returned '0': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/arm_checker -- -j8 -l8
+[0.114s] Invoking command in '/home/sid/ros2_ws/build/arm_checker': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/arm_checker
+[0.139s] -- Install configuration: ""
+[0.140s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/lib/arm_checker/server
+[0.143s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/lib/arm_checker/client
+[0.143s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/ament_index/resource_index/package_run_dependencies/arm_checker
+[0.143s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/ament_index/resource_index/parent_prefix_path/arm_checker
+[0.143s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/ament_prefix_path.sh
+[0.143s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/ament_prefix_path.dsv
+[0.143s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/path.sh
+[0.143s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/path.dsv
+[0.143s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.bash
+[0.143s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.sh
+[0.143s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.zsh
+[0.143s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.dsv
+[0.143s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/package.dsv
+[0.145s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/ament_index/resource_index/packages/arm_checker
+[0.145s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/cmake/arm_checkerConfig.cmake
+[0.145s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/cmake/arm_checkerConfig-version.cmake
+[0.145s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/package.xml
+[0.158s] Invoked command in '/home/sid/ros2_ws/build/arm_checker' returned '0': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/arm_checker

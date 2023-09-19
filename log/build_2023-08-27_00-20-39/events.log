@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000186] (-) JobUnselected: {'identifier': 'arm_checker'}
+[0.000209] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000225] (-) JobUnselected: {'identifier': 'cpp_pub'}
+[0.000239] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000252] (-) JobUnselected: {'identifier': 'my_first_pkg'}
+[0.000263] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000272] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.000281] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.000290] (-) JobUnselected: {'identifier': 'tut_interfaces'}
+[0.000300] (parameter_handler) JobQueued: {'identifier': 'parameter_handler', 'dependencies': OrderedDict()}
+[0.000445] (parameter_handler) JobStarted: {'identifier': 'parameter_handler'}
+[0.008848] (parameter_handler) JobProgress: {'identifier': 'parameter_handler', 'progress': 'cmake'}
+[0.009094] (parameter_handler) JobProgress: {'identifier': 'parameter_handler', 'progress': 'build'}
+[0.009849] (parameter_handler) Command: {'cmd': ['/home/sid/.local/bin/cmake', '--build', '/home/sid/ros2_ws/build/parameter_handler', '--', '-j8', '-l8'], 'cwd': '/home/sid/ros2_ws/build/parameter_handler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sid'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sid/ros2_ws/install/tut_interfaces/lib:/home/sid/ros2_ws/install/polygon_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/sid'), ('OLDPWD', '/home/sid'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sid/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'sid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/sid/miniconda3/bin:/opt/gcc-arm/bin:/home/sid/miniconda3/bin:/opt/gcc-arm/bin:/home/sid/ros2_ws/install/cpp_srvcli/bin:/opt/ros/iron/bin:/home/sid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sid/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/srana:@/tmp/.ICE-unix/1800,unix/srana:/tmp/.ICE-unix/1800'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75ddfb4c_ec6b_40fc_aec9_5877209f1375'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.614'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sid/ros2_ws/install/parameter_handler:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/polygon_plugins:/home/sid/ros2_ws/install/polygon_base:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/my_first_pkg:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/cpp_parameters:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sid/ros2_ws/build/parameter_handler'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/sid/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sid/ros2_ws/install/tut_interfaces/lib/python3.10/site-packages:/home/sid/ros2_ws/install/my_first_pkg/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sid/ros2_ws/install/parameter_handler:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/polygon_plugins:/home/sid/ros2_ws/install/polygon_base:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/cpp_parameters:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron')]), 'shell': False}
+[0.054239] (parameter_handler) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/parameter_handler.dir/src/cpp_parameter_handler.cpp.o\x1b[0m\n'}
+[0.099970] (-) TimerEvent: {}
+[0.200305] (-) TimerEvent: {}
+[0.300647] (-) TimerEvent: {}
+[0.400997] (-) TimerEvent: {}
+[0.501332] (-) TimerEvent: {}
+[0.601586] (-) TimerEvent: {}
+[0.701870] (-) TimerEvent: {}
+[0.802163] (-) TimerEvent: {}
+[0.902458] (-) TimerEvent: {}
+[1.002878] (-) TimerEvent: {}
+[1.103240] (-) TimerEvent: {}
+[1.203634] (-) TimerEvent: {}
+[1.303950] (-) TimerEvent: {}
+[1.404324] (-) TimerEvent: {}
+[1.504664] (-) TimerEvent: {}
+[1.604985] (-) TimerEvent: {}
+[1.705373] (-) TimerEvent: {}
+[1.805763] (-) TimerEvent: {}
+[1.823200] (parameter_handler) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.823371] (parameter_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[1.823422] (parameter_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.823464] (parameter_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.823505] (parameter_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.823545] (parameter_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.823585] (parameter_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.823638] (parameter_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.823674] (parameter_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.823709] (parameter_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.823744] (parameter_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[1.823780] (parameter_handler) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sid/ros2_ws/src/parameter_handler/src/cpp_parameter_handler.cpp:2\x1b[m\x1b[K:\n'}
+[1.823815] (parameter_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ros2_ws/src/parameter_handler/src/cpp_parameter_handler.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[1.823849] (parameter_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ros2_ws/src/parameter_handler/src/cpp_parameter_handler.cpp:14:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.823888] (parameter_handler) StderrLine: {'line': b'   14 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Received an update to parameter \\"%s\\" of type %s: \\"%d\\""\x1b[m\x1b[K,p.get_name().c_str(), p.get_type_name().c_str(), \x1b[32m\x1b[Kp.as_int()\x1b[m\x1b[K);\n'}
+[1.823925] (parameter_handler) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                                  \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.823962] (parameter_handler) StderrLine: {'line': b'      |                                                                                                                                                                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.823997] (parameter_handler) StderrLine: {'line': b'      |                                                                                                                                                                  \x1b[32m\x1b[Kint64_t {aka long int}\x1b[m\x1b[K\n'}
+[1.824033] (parameter_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sid/ros2_ws/src/parameter_handler/src/cpp_parameter_handler.cpp:14:100:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.824068] (parameter_handler) StderrLine: {'line': b'   14 | _INFO(this->get_logger(), "Received an update to parameter \\"%s\\" of type %s: \\"\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\\"",p.get_name().c_str(), p.get_type_name().c_str(), p.as_int());\n'}
+[1.824105] (parameter_handler) StderrLine: {'line': b'      |                                                                                 \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.824139] (parameter_handler) StderrLine: {'line': b'      |                                                                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.824174] (parameter_handler) StderrLine: {'line': b'      |                                                                                  \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.824207] (parameter_handler) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[1.905885] (-) TimerEvent: {}
+[2.006245] (-) TimerEvent: {}
+[2.106532] (-) TimerEvent: {}
+[2.206891] (-) TimerEvent: {}
+[2.307268] (-) TimerEvent: {}
+[2.407657] (-) TimerEvent: {}
+[2.508064] (-) TimerEvent: {}
+[2.608419] (-) TimerEvent: {}
+[2.708782] (-) TimerEvent: {}
+[2.809152] (-) TimerEvent: {}
+[2.909435] (-) TimerEvent: {}
+[3.009716] (-) TimerEvent: {}
+[3.109990] (-) TimerEvent: {}
+[3.210283] (-) TimerEvent: {}
+[3.310569] (-) TimerEvent: {}
+[3.410860] (-) TimerEvent: {}
+[3.511145] (-) TimerEvent: {}
+[3.611398] (-) TimerEvent: {}
+[3.711680] (-) TimerEvent: {}
+[3.811944] (-) TimerEvent: {}
+[3.912185] (-) TimerEvent: {}
+[4.012453] (-) TimerEvent: {}
+[4.112730] (-) TimerEvent: {}
+[4.212988] (-) TimerEvent: {}
+[4.313264] (-) TimerEvent: {}
+[4.413526] (-) TimerEvent: {}
+[4.513785] (-) TimerEvent: {}
+[4.614027] (-) TimerEvent: {}
+[4.714354] (-) TimerEvent: {}
+[4.814703] (-) TimerEvent: {}
+[4.914971] (-) TimerEvent: {}
+[5.015221] (-) TimerEvent: {}
+[5.068535] (parameter_handler) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable parameter_handler\x1b[0m\n'}
+[5.115428] (-) TimerEvent: {}
+[5.215765] (-) TimerEvent: {}
+[5.316030] (-) TimerEvent: {}
+[5.319509] (parameter_handler) StdoutLine: {'line': b'[100%] Built target parameter_handler\n'}
+[5.331982] (parameter_handler) CommandEnded: {'returncode': 0}
+[5.370759] (parameter_handler) JobProgress: {'identifier': 'parameter_handler', 'progress': 'install'}
+[5.397424] (parameter_handler) Command: {'cmd': ['/home/sid/.local/bin/cmake', '--install', '/home/sid/ros2_ws/build/parameter_handler'], 'cwd': '/home/sid/ros2_ws/build/parameter_handler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sid'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sid/ros2_ws/install/tut_interfaces/lib:/home/sid/ros2_ws/install/polygon_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/sid'), ('OLDPWD', '/home/sid'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1819'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sid/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'sid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/sid/miniconda3/bin:/opt/gcc-arm/bin:/home/sid/miniconda3/bin:/opt/gcc-arm/bin:/home/sid/ros2_ws/install/cpp_srvcli/bin:/opt/ros/iron/bin:/home/sid/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sid/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/srana:@/tmp/.ICE-unix/1800,unix/srana:/tmp/.ICE-unix/1800'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75ddfb4c_ec6b_40fc_aec9_5877209f1375'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.614'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sid/ros2_ws/install/parameter_handler:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/polygon_plugins:/home/sid/ros2_ws/install/polygon_base:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/my_first_pkg:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/cpp_parameters:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sid/ros2_ws/build/parameter_handler'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/sid/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sid/ros2_ws/install/tut_interfaces/lib/python3.10/site-packages:/home/sid/ros2_ws/install/my_first_pkg/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sid/ros2_ws/install/parameter_handler:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/arm_checker:/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/polygon_plugins:/home/sid/ros2_ws/install/polygon_base:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/cpp_parameters:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron')]), 'shell': False}
+[5.416208] (-) TimerEvent: {}
+[5.419417] (parameter_handler) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.419836] (parameter_handler) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.420083] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/lib/parameter_handler/parameter_handler\n'}
+[5.420192] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/ament_index/resource_index/package_run_dependencies/parameter_handler\n'}
+[5.420292] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/ament_index/resource_index/parent_prefix_path/parameter_handler\n'}
+[5.420388] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/environment/ament_prefix_path.sh\n'}
+[5.420475] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/environment/ament_prefix_path.dsv\n'}
+[5.420565] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/environment/path.sh\n'}
+[5.420650] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/environment/path.dsv\n'}
+[5.420735] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/local_setup.bash\n'}
+[5.420818] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/local_setup.sh\n'}
+[5.420900] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/local_setup.zsh\n'}
+[5.420990] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/local_setup.dsv\n'}
+[5.421088] (parameter_handler) StdoutLine: {'line': b'-- Symlinking: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/package.dsv\n'}
+[5.423456] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/ament_index/resource_index/packages/parameter_handler\n'}
+[5.423529] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/cmake/parameter_handlerConfig.cmake\n'}
+[5.423581] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/cmake/parameter_handlerConfig-version.cmake\n'}
+[5.423630] (parameter_handler) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sid/ros2_ws/install/parameter_handler/share/parameter_handler/package.xml\n'}
+[5.428235] (parameter_handler) CommandEnded: {'returncode': 0}
+[5.484632] (parameter_handler) JobEnded: {'identifier': 'parameter_handler', 'rc': 0}
+[5.485133] (-) EventReactorShutdown: {}

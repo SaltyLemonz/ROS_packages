@@ -1,0 +1,34 @@
+[0.009s] Invoking command in '/home/sid/ros2_ws/build/arm_checker': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/arm_checker -- -j8 -l8
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/arm_server.cpp.o[0m
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/arm_client.cpp.o[0m
+[1.962s] [01m[K/home/sid/ros2_ws/src/fib_checker/src/arm_server.cpp:[m[K In function ‘[01m[Kbool armstrong(std::shared_ptr<tut_interfaces::srv::CheckFib_Request_<std::allocator<void> > >, std::shared_ptr<tut_interfaces::srv::CheckFib_Response_<std::allocator<void> > >)[m[K’:
+[1.962s] [01m[K/home/sid/ros2_ws/src/fib_checker/src/arm_server.cpp:17:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[1.962s]    17 | [01;35m[K}[m[K
+[1.962s]       | [01;35m[K^[m[K
+[3.071s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.183s] [ 75%] Built target server
+[3.220s] [100%] [32m[1mLinking CXX executable client[0m
+[3.328s] [100%] Built target client
+[3.341s] Invoked command in '/home/sid/ros2_ws/build/arm_checker' returned '0': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/arm_checker -- -j8 -l8
+[3.374s] Invoking command in '/home/sid/ros2_ws/build/arm_checker': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/arm_checker
+[3.392s] -- Install configuration: ""
+[3.392s] -- Installing: /home/sid/ros2_ws/install/arm_checker/lib/arm_checker/server
+[3.392s] -- Set runtime path of "/home/sid/ros2_ws/install/arm_checker/lib/arm_checker/server" to ""
+[3.393s] -- Installing: /home/sid/ros2_ws/install/arm_checker/lib/arm_checker/client
+[3.393s] -- Set runtime path of "/home/sid/ros2_ws/install/arm_checker/lib/arm_checker/client" to ""
+[3.393s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/ament_index/resource_index/package_run_dependencies/arm_checker
+[3.393s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/ament_index/resource_index/parent_prefix_path/arm_checker
+[3.393s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/ament_prefix_path.sh
+[3.393s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/ament_prefix_path.dsv
+[3.393s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/path.sh
+[3.394s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/environment/path.dsv
+[3.394s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.bash
+[3.394s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.sh
+[3.394s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.zsh
+[3.394s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/local_setup.dsv
+[3.394s] -- Installing: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/package.dsv
+[3.394s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/ament_index/resource_index/packages/arm_checker
+[3.394s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/cmake/arm_checkerConfig.cmake
+[3.394s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/cmake/arm_checkerConfig-version.cmake
+[3.394s] -- Up-to-date: /home/sid/ros2_ws/install/arm_checker/share/arm_checker/package.xml
+[3.399s] Invoked command in '/home/sid/ros2_ws/build/arm_checker' returned '0': CMAKE_PREFIX_PATH=/home/sid/ros2_ws/install/tut_interfaces:/home/sid/ros2_ws/install/fib_test:/home/sid/ros2_ws/install/my_package:/home/sid/ros2_ws/install/cpp_srvcli:/home/sid/ros2_ws/install/cpp_pubsub:/home/sid/ros2_ws/install/cpp_pub:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/arm_checker

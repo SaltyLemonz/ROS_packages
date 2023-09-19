@@ -1,0 +1,11 @@
+[01m[K/home/sid/ros2_ws/src/cpp_parameters/src/cpp_param_node.cpp:[m[K In constructor ‘[01m[KParam::Param()[m[K’:
+[01m[K/home/sid/ros2_ws/src/cpp_parameters/src/cpp_param_node.cpp:15:65:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid Param::timer_callback()[m[K’
+   15 |     timer = this->create_wall_timer(500ms, std::bind([01;31m[KParam::timer_callback[m[K, this));
+      |                                                      [01;31m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/sid/ros2_ws/src/cpp_parameters/src/cpp_param_node.cpp:18:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   18 |     void [01;36m[Ktimer_callback[m[K() {
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/param_test.dir/build.make:76: CMakeFiles/param_test.dir/src/cpp_param_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/param_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

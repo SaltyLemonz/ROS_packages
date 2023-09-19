@@ -1,0 +1,35 @@
+[0.251s] Invoking command in '/home/sid/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/my_package
+[0.302s] -- The C compiler identification is GNU 11.3.0
+[0.342s] -- The CXX compiler identification is GNU 11.3.0
+[0.349s] -- Detecting C compiler ABI info
+[0.388s] -- Detecting C compiler ABI info - done
+[0.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.395s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.399s] -- Detecting CXX compiler ABI info
+[0.447s] -- Detecting CXX compiler ABI info - done
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.456s] -- Detecting CXX compile features
+[0.456s] -- Detecting CXX compile features - done
+[0.457s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.637s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.646s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.685s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.697s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.726s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.853s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.854s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.959s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.095s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.122s] -- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.172s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.172s] -- Configured cppcheck include dirs: 
+[1.172s] -- Configured cppcheck exclude dirs and/or files: 
+[1.172s] -- Added test 'lint_cmake' to check CMake code style
+[1.173s] -- Added test 'uncrustify' to check C / C++ code style
+[1.173s] -- Configured uncrustify additional arguments: 
+[1.173s] -- Added test 'xmllint' to check XML markup files
+[1.174s] -- Configuring done (0.9s)
+[1.184s] -- Generating done (0.0s)
+[1.185s] -- Build files have been written to: /home/sid/ros2_ws/build/my_package

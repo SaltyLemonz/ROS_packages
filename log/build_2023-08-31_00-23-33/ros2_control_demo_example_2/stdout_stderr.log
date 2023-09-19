@@ -1,0 +1,65 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found hardware_interface: 3.17.0 (/opt/ros/iron/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sid/ros2_ws/build/ros2_control_demo_example_2
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_2.dir/hardware/diffbot_system.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libros2_control_demo_example_2.so[0m
+[100%] Built target ros2_control_demo_example_2
+-- Install configuration: ""
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control_demo_example_2.xml
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/diffbot_system.hpp
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/visibility_control.h
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/view_robot.launch.py
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control/diffbot.ros2_control.xacro
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf/diffbot.urdf.xacro
+-- Up-to-date: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/diffbot.launch.py
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config/diffbot_controllers.yaml
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so
+-- Set runtime path of "/home/sid/ros2_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so" to ""
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.sh
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.dsv
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_2
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_2
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.sh
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.dsv
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.sh
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.dsv
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.bash
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.sh
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.zsh
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.dsv
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/packages/ros2_control_demo_example_2
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_2
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export.cmake
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export-noconfig.cmake
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config.cmake
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config-version.cmake
+-- Installing: /home/sid/ros2_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.xml

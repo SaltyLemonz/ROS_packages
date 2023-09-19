@@ -1,0 +1,23 @@
+[100%] Built target media_files
+-- Install configuration: ""
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/worlds
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/worlds/bocbot_office.world
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/urdf
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/urdf/bocbot.gazebo
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/urdf/bocbot.urdf
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/urdf/bocbot.urdf.xacro
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/ament_index/resource_index/package_run_dependencies/bocbot
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/ament_index/resource_index/parent_prefix_path/bocbot
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/environment/ament_prefix_path.sh
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/environment/ament_prefix_path.dsv
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/environment/path.sh
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/environment/path.dsv
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/local_setup.bash
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/local_setup.sh
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/local_setup.zsh
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/local_setup.dsv
+-- Up-to-date: /home/sid/ros2_ws/install/bocbot/share/bocbot/package.dsv
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/ament_index/resource_index/packages/bocbot
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/cmake/bocbotConfig.cmake
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/cmake/bocbotConfig-version.cmake
+-- Installing: /home/sid/ros2_ws/install/bocbot/share/bocbot/package.xml

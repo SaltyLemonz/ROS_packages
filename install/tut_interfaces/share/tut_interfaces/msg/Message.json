@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "tut_interfaces/msg/Message",
+      "fields": [
+        {
+          "name": "flag",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "tut_interfaces/msg/Message",
+      "hash_string": "RIHS01_6bc17b1db3738578fc91ee0499c73247e9cd516a105a0ba4052954ce1d18e036"
+    }
+  ]
+}

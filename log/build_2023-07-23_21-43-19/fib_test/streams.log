@@ -1,0 +1,44 @@
+[0.015s] Invoking command in '/home/sid/ros2_ws/build/fib_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/fib_test -- -j8 -l8
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/fib_server.cpp.o[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/fib_client.cpp.o[0m
+[1.852s] [01m[K/home/sid/ros2_ws/src/fib_test/src/fib_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.852s] [01m[K/home/sid/ros2_ws/src/fib_test/src/fib_server.cpp:5:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.852s]     5 | int main([01;35m[Kint argc[m[K, char* argv[]) {
+[1.852s]       |          [01;35m[K~~~~^~~~[m[K
+[1.852s] [01m[K/home/sid/ros2_ws/src/fib_test/src/fib_server.cpp:5:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.852s]     5 | int main(int argc, [01;35m[Kchar* argv[][m[K) {
+[1.852s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[1.876s] [01m[K/home/sid/ros2_ws/src/fib_test/src/fib_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.877s] [01m[K/home/sid/ros2_ws/src/fib_test/src/fib_client.cpp:6:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.877s]     6 | int main([01;35m[Kint argc[m[K, char* argv[]) {
+[1.877s]       |          [01;35m[K~~~~^~~~[m[K
+[1.877s] [01m[K/home/sid/ros2_ws/src/fib_test/src/fib_client.cpp:6:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.877s]     6 | int main(int argc, [01;35m[Kchar* argv[][m[K) {
+[1.877s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[2.547s] [ 75%] [32m[1mLinking CXX executable server[0m
+[2.578s] [100%] [32m[1mLinking CXX executable client[0m
+[2.640s] [100%] Built target server
+[2.670s] [100%] Built target client
+[2.676s] Invoked command in '/home/sid/ros2_ws/build/fib_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/fib_test -- -j8 -l8
+[2.728s] Invoking command in '/home/sid/ros2_ws/build/fib_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/fib_test
+[2.747s] -- Install configuration: ""
+[2.747s] -- Installing: /home/sid/ros2_ws/install/fib_test/lib/fib_test/server
+[2.747s] -- Set runtime path of "/home/sid/ros2_ws/install/fib_test/lib/fib_test/server" to ""
+[2.747s] -- Installing: /home/sid/ros2_ws/install/fib_test/lib/fib_test/client
+[2.747s] -- Set runtime path of "/home/sid/ros2_ws/install/fib_test/lib/fib_test/client" to ""
+[2.748s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/ament_index/resource_index/package_run_dependencies/fib_test
+[2.748s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/ament_index/resource_index/parent_prefix_path/fib_test
+[2.748s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/environment/ament_prefix_path.sh
+[2.748s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/environment/ament_prefix_path.dsv
+[2.748s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/environment/path.sh
+[2.748s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/environment/path.dsv
+[2.749s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/local_setup.bash
+[2.749s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/local_setup.sh
+[2.749s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/local_setup.zsh
+[2.749s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/local_setup.dsv
+[2.749s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/package.dsv
+[2.750s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/ament_index/resource_index/packages/fib_test
+[2.750s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/cmake/fib_testConfig.cmake
+[2.750s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/cmake/fib_testConfig-version.cmake
+[2.750s] -- Installing: /home/sid/ros2_ws/install/fib_test/share/fib_test/package.xml
+[2.754s] Invoked command in '/home/sid/ros2_ws/build/fib_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --install /home/sid/ros2_ws/build/fib_test

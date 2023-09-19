@@ -1,0 +1,48 @@
+[0.014s] Invoking command in '/home/sid/ros2_ws/build/fib_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/fib_test -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/fib_test
+[0.073s] -- The C compiler identification is GNU 11.3.0
+[0.112s] -- The CXX compiler identification is GNU 11.3.0
+[0.119s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.168s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.170s] -- Detecting CXX compiler ABI info
+[0.220s] -- Detecting CXX compiler ABI info - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.228s] -- Detecting CXX compile features
+[0.228s] -- Detecting CXX compile features - done
+[0.231s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.507s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.577s] -- Found rclcpp: 21.0.1 (/opt/ros/iron/share/rclcpp/cmake)
+[0.617s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.629s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.803s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.805s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.893s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.915s] -- Found FastRTPS: /opt/ros/iron/include  
+[0.951s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.091s] -- Found tut_interfaces: 0.0.0 (/home/sid/ros2_ws/install/tut_interfaces/share/tut_interfaces/cmake)
+[1.178s] -- Configuring done (1.1s)
+[1.197s] -- Generating done (0.0s)
+[1.198s] -- Build files have been written to: /home/sid/ros2_ws/build/fib_test
+[1.211s] Invoked command in '/home/sid/ros2_ws/build/fib_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake /home/sid/ros2_ws/src/fib_test -DCMAKE_INSTALL_PREFIX=/home/sid/ros2_ws/install/fib_test
+[1.213s] Invoking command in '/home/sid/ros2_ws/build/fib_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/fib_test -- -j8 -l8
+[1.249s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/fib_server.cpp.o[0m
+[1.249s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/fib_client.cpp.o[0m
+[3.991s] [100%] [32m[1mLinking CXX executable server[0m
+[3.992s] [100%] [32m[1mLinking CXX executable client[0m
+[4.127s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[4.127s] (.text+0x1b): undefined reference to `main'
+[4.130s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[4.130s] (.text+0x1b): undefined reference to `main'
+[4.133s] collect2: error: ld returned 1 exit status
+[4.134s] gmake[2]: *** [CMakeFiles/client.dir/build.make:174: client] Error 1
+[4.135s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[4.135s] gmake[1]: *** Waiting for unfinished jobs....
+[4.135s] collect2: error: ld returned 1 exit status
+[4.136s] gmake[2]: *** [CMakeFiles/server.dir/build.make:174: server] Error 1
+[4.136s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[4.136s] gmake: *** [Makefile:146: all] Error 2
+[4.142s] Invoked command in '/home/sid/ros2_ws/build/fib_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/fib_test -- -j8 -l8

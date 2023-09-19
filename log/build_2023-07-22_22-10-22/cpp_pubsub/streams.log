@@ -1,0 +1,10 @@
+[0.020s] Invoking command in '/home/sid/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.265s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_pub.dir/src/publisher_member_function.cpp.o[0m
+[0.266s] [01m[K/home/sid/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.266s]    20 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.266s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.266s] compilation terminated.
+[0.266s] gmake[2]: *** [CMakeFiles/simple_pub.dir/build.make:76: CMakeFiles/simple_pub.dir/src/publisher_member_function.cpp.o] Error 1
+[0.266s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_pub.dir/all] Error 2
+[0.266s] gmake: *** [Makefile:146: all] Error 2
+[0.266s] Invoked command in '/home/sid/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sid/ros2_ws/install/my_first_pkg:/opt/ros/iron /home/sid/.local/bin/cmake --build /home/sid/ros2_ws/build/cpp_pubsub -- -j8 -l8
